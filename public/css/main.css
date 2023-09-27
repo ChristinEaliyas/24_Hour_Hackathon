@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #130C2E;
+}
+
+/* Navigation Bar */
+li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10% 80px 10%;
+}
+.logo{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.nav_Links{
+    list-style: none;
+}
+.nav_Links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_Links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_Links li a:hover {
+    color: #4053b5;
+}
+
+/* Event Details Box */
+.event-content{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(270deg, #250F61 10%, #182B85 58%, #110340 100%);
+}
+.event-content .content {
+    height: 350px;
+    padding-left: 80px;
+    background: transparent;
+}
+.event-content .content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #edf0f1;
+    text-decoration: none;
+    background: transparent;
+}
+.event-content .content #event-date{
+    padding-top: 40px;
+}
+.event-content .content #name {
+    font-size: 70px;
+    padding: 35px 0 50px 0;
+}
+
+
+/* Event About */
+.about-event {
+    height: 500px;
+    width: 100%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-event .img1{
+    width: 45%;
+}
+.about-event .img1 img{
+    height: 650px;
+}
+.about-event .about{
+    padding: 50px 10px;
+}
+.about-event .about h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    color: #edf0f1;
+    text-decoration: none;
+    background: transparent;
+    padding: 35px 0;
+}
+.about-event .about p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #edf0f1;
+    text-decoration: none;
+    background: transparent;
+}
+
+
