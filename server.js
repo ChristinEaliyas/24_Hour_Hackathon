@@ -14,6 +14,9 @@ app.get('/', (req, res) => {
 app.get('/register',(req, res) => {
     res.render('register');
 })
+app.get('/test', (req, res) => {
+    res.render('test')
+})
 
 
 app.post('/team/reg', (req, res) => {

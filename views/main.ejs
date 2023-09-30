@@ -35,12 +35,48 @@
         </div>
     </div>
     <div class="count-down-div">
-        <h1>Count Down</h1>
+        <div class="countdown-wrapper">
+            <div class="count-down-timer">
+                <div class="countdown-container">
+                    <div class="expires-in">
+                        <p id="demo">Ideation</p>
+                      </div>
+                    <div class="countdown">
+                      <span id="days" class="countdown-number"></span>
+                      <span class="countdown-label">Days</span>
+                    </div>
+                    <div class="countdown">
+                      <span id="hours" class="countdown-number"></span>
+                      <span class="countdown-label">Hours</span>
+                    </div>
+                    <div class="countdown">
+                      <span id="minutes" class="countdown-number"></span>
+                      <span class="countdown-label">Minutes</span>
+                    </div>
+                    <div class="countdown">
+                      <span id="seconds" class="countdown-number"></span>
+                      <span class="countdown-label">Seconds</span>
+                    </div>
+                  </div>
+            </div>
+            <video class="count-down-video" autoplay loop muted plays-inline src="/videos/pexels_videos_2646392 (1080p).mp4"></video>
+        </div>
     </div>
     <div class="schedule">
         <div class="schedule-items">
+            <div id="schedule-name">
+                <h1>Hackathon Schedule</h1>
+            </div>
             <div class="item">
-                <div class="item-box">
+                <div class="item-box-temp" id="box1">
+                    <p class="item-name"></p>
+                    <p class="item-month"></p>
+                    <p class="item-date"></p>
+                </div>
+                <span class="line"></span>
+            </div>
+            <div class="item">
+                <div class="item-box" id="box1">
                     <p class="item-name">Registration</p>
                     <p class="item-month">October</p>
                     <p class="item-date">3</p>
@@ -48,7 +84,7 @@
                 <span class="line"></span>
             </div>
             <div class="item">
-                <div class="item-box">
+                <div class="item-box two">
                     <p class="item-name">Ideation</p>
                     <p class="item-month">October</p>
                     <p class="item-date">6</p>
@@ -56,7 +92,7 @@
                 <span class="line"></span>
             </div>
             <div class="item">
-                <div class="item-box">
+                <div class="item-box three">
                     <p class="item-name">Mentoring Sessions</p>
                     <p class="item-month">October</p>
                     <p class="item-date">7 - 15</p>
@@ -64,10 +100,18 @@
                 <span class="line"></span>
             </div>
             <div class="item">
-                <div class="item-box">
+                <div class="item-box four">
                     <p class="item-name">Hackathon</p>
                     <p class="item-month">October</p>
                     <p class="item-date">16</p>
+                </div>
+                <span class="line"></span>
+            </div>
+            <div class="item">
+                <div class="item-box-temp" id="box1">
+                    <p class="item-name"></p>
+                    <p class="item-month"></p>
+                    <p class="item-date"></p>
                 </div>
                 <span class="line"></span>
             </div>
@@ -76,5 +120,6 @@
 
         </div>
     </div>
+    <script src="/scripts/main.js"></script>
 </body>
 </html>
