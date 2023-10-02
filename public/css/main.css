@@ -173,7 +173,7 @@ header {
 .schedule{
     height: 130vh;
     display: grid;
-    grid-template-rows:80vh 60vh;
+    grid-template-rows:80vh 50vh;
 }
 .schedule .schedule-items{
     background: linear-gradient(180deg, #17206B 0%, #1730B8 100%);
@@ -256,8 +256,76 @@ header {
     text-decoration: none;
     background: transparent;
 }
+.schedule-content {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10%;
+}
+.schedule-content .schedule-content-1 p{
+    text-align: left;
+    padding-top: 20px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: auto;
+    color: #edf0f1;
+    text-decoration: none;
+    background: transparent;
+}
+.schedule-content .schedule-content-2 p{
+    text-align: right;
+    padding-top: 20px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: auto;
+    color: #edf0f1;
+    text-decoration: none;
+    background: transparent;
+}
 @media (min-width: 950px) {
     .schedule .schedule-items {
         grid-template-columns: repeat(6, 1fr);
     }
+}
+
+/* Sponsors */
+.sponsors {
+    height: 50vh;
+    width: 100%;
+}
+.sponsors-bg {
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    background : linear-gradient(200deg, #110340 0%, #326BFF, #2B59FF, #0D8BFF, #5500FF, #4F1DD1, #7300FF);
+    filter: blur(3px);
+    z-index: 1;
+}
+.sponsors-content {
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    z-index: 2;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.sponsors-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #edf0f1;
+    text-decoration: none;
+    background: transparent;
+    padding: 10px 0;
+}
+.sponsors-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    background: transparent;
 }
