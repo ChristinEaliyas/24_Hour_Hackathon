@@ -329,3 +329,110 @@ header {
     text-decoration: none;
     background: transparent;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+
+    header {
+        padding: 15px 5%;
+    }
+
+    .nav_Links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #130C2E;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .about{
+        margin: 0%;
+    }
+
+    .nav_Links li {
+        padding: 10px;
+    }
+
+    .nav_Links.show {
+        display: flex;
+    }
+
+    .nav_Links li {
+        display: block;
+    }
+
+    .event-content .content {
+
+        padding: 10px;
+    }
+
+    .about-event {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+
+    .about-event .img1 {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .about-event .img1 img {
+        width: 100%;
+        height: auto;
+    }
+    .countdown{
+        font-size: 26px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .count-down-div {
+        font-size: small;
+        margin-bottom: 20px;
+        margin-top:300px;
+        height: auto;
+    }
+
+    .countdown-wrapper {
+        height: auto;
+        width: 100%;
+    }
+
+    .count-down-video {
+        width: 100%;
+        height: auto;
+    }
+    h1{
+        text-align: center;
+    }
+
+    .schedule .schedule-items {
+        grid-template-columns: 1fr;
+    }
+
+    .schedule .schedule-items .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .schedule .schedule-content {
+        grid-template-columns: 1fr;
+        grid-gap: 5%;
+    }
+
+    .sponsors-content {
+        text-align: center;
+    }
+    .item{
+        display: inline-block;
+    }
+}
