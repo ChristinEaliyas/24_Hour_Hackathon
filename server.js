@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.render('main');
+    res.render('home');
 })
 app.get('/register',(req, res) => {
     res.render('register');
