@@ -97,3 +97,7 @@ blockquote.testimonial-big{
 .pink {
 	color: #ED4D88;
 }
+.bottom p {
+	padding: 0 60px;
+	line-height: 45px;
+}
