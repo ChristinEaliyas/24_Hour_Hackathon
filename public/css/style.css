@@ -5427,7 +5427,6 @@ a:hover, a:active, a:focus, img{
 }
 
 .de-flex-wrap{
-	background: 
 	display: flex;
 	justify-content: space-between;
 }
@@ -6102,7 +6101,7 @@ right:-15px;
     position: fixed;
     bottom: 40px;
     right: 40px;
-    z-index: 999;
+    z-index: 998;
 	padding-right: 2px;
     width: 32px;
     height: 32px;
@@ -6116,6 +6115,12 @@ right:-15px;
     transition: opacity 0.2s ease-out;
     opacity: 0;
 	outline:none;
+}
+#back-to-top img {
+	position: absolute;
+	top: 11px;
+	right: 12px;
+
 }
 #back-to-top:hover {
     background: #111;
